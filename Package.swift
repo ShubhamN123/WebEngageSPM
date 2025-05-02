@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebEngageSPM",
+    name: "webengagespm",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "WebEngageSPM",
-            targets: ["WebEngageSPM"]),
+            name: "webengagespm",
+            targets: ["webengagespm"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         
         .binaryTarget(
-            name: "WebEngageSPM",
-            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.15.0/WebEngageFramework.zip", checksum: "6cbf358c9e875f0e5c9eb3c37c57a725b307e285018c4f7dd45fcdf5b635f739"
+            name: "webengagespm",
+            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.15.0/WebEngageFramework.zip", checksum: "e6c90b3443f9001e2275390532da073e6f4b9dd9bd9a2a173d5e81fdaf16c5e9"
         ),
         .testTarget(
             name: "WebEngageSPMTests",
-            dependencies: ["WebEngageSPM"]
+            dependencies: ["webengagespm"]
         ),
     ]
 )
