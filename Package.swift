@@ -17,7 +17,7 @@ let package = Package(
         
         .binaryTarget(
             name: "webengagespm",
-            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.15.0/WebEngageFramework.zip", checksum: "e6c90b3443f9001e2275390532da073e6f4b9dd9bd9a2a173d5e81fdaf16c5e9"
+            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.14.0/WebEngageFramework.zip", checksum: "e6c90b3443f9001e2275390532da073e6f4b9dd9bd9a2a173d5e81fdaf16c5e9"
         ),
         .testTarget(
             name: "WebEngageSPMTests",
