@@ -1,27 +1,31 @@
 // swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
     name: "webengagespm",
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "webengagespm",
-            targets: ["webengagespm"]),
+            targets: ["WebEngage","WELocation"]
+        ),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        
         .binaryTarget(
-            name: "webengagespm",
-            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.13.0/WebEngageFramework.zip", checksum: "e6c90b3443f9001e2275390532da073e6f4b9dd9bd9a2a173d5e81fdaf16c5e9"
+            name: "WebEngage",
+            url: "https://tmpfiles.org/dl/28885406/webengageframework.zip",
+            checksum: "5259c616db26e125fd3a904578280e6811e88713d7ae99aa6bad52c46edce5a0"
+        ),
+        .binaryTarget(
+            name: "WELocation",
+            url: "https://tmpfiles.org/dl/28886268/webengageframework.zip",
+            checksum: "59e35a7a9120b3b50f45d0161d86fa2fec2f3997dd34469ed4bd83dd41bb314b"
         ),
         .testTarget(
             name: "WebEngageSPMTests",
-            dependencies: ["webengagespm"]
+            dependencies: ["WebEngage","WELocation"]
         ),
     ]
 )
