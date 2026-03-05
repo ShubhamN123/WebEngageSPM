@@ -1,0 +1,11 @@
+framework module WENotificationInbox {
+  umbrella header "WENotificationInbox.h"
+  export *
+
+  module * { export * }
+}
+
+module WENotificationInbox.Swift {
+  header "WENotificationInbox-Swift.h"
+  requires objc
+}

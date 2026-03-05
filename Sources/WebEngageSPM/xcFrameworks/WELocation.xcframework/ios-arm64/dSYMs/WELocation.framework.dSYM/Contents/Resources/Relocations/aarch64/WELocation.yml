@@ -1,0 +1,53 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/milindkeni/Library/Developer/Xcode/DerivedData/WELocation-cmxmskriixeyuhgplqttqdmrjxsb/Build/Intermediates.noindex/ArchiveIntermediates/WELocation/InstallationBuildProductsLocation/Library/Frameworks/WELocation.framework/WELocation'
+relocations:
+  - { offset: 0x6A15F, size: 0x8, addend: 0x0, symName: _WELocationVersionString, symObjAddr: 0x0, symBinAddr: 0x66E0, symSize: 0x0 }
+  - { offset: 0x6A194, size: 0x8, addend: 0x0, symName: _WELocationVersionNumber, symObjAddr: 0x30, symBinAddr: 0x6710, symSize: 0x0 }
+  - { offset: 0x6A1D1, size: 0x8, addend: 0x0, symName: '+[WEGLocationManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x74 }
+  - { offset: 0x6A1DF, size: 0x8, addend: 0x0, symName: '+[WEGLocationManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x74 }
+  - { offset: 0x6A209, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xA658, symBinAddr: 0x92F8, symSize: 0x0 }
+  - { offset: 0x6A21F, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xA660, symBinAddr: 0x9300, symSize: 0x0 }
+  - { offset: 0x6A431, size: 0x8, addend: 0x0, symName: '___36+[WEGLocationManager sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x4074, symSize: 0x3C }
+  - { offset: 0x6A493, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager init]', symObjAddr: 0xB0, symBinAddr: 0x40B0, symSize: 0x11C }
+  - { offset: 0x6A4CA, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager disableLocationUpdate]', symObjAddr: 0x1CC, symBinAddr: 0x41CC, symSize: 0x70 }
+  - { offset: 0x6A4FD, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setLocationAccuracy:]', symObjAddr: 0x23C, symBinAddr: 0x423C, symSize: 0x124 }
+  - { offset: 0x6A560, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager refreshLocation]', symObjAddr: 0x360, symBinAddr: 0x4360, symSize: 0x64 }
+  - { offset: 0x6A5A3, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManager:didChangeAuthorizationStatus:]', symObjAddr: 0x3C4, symBinAddr: 0x43C4, symSize: 0x64 }
+  - { offset: 0x6A5F2, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManagerDidChangeAuthorization:]', symObjAddr: 0x428, symBinAddr: 0x4428, symSize: 0x10C }
+  - { offset: 0x6A691, size: 0x8, addend: 0x0, symName: '___60-[WEGLocationManager locationManagerDidChangeAuthorization:]_block_invoke', symObjAddr: 0x534, symBinAddr: 0x4534, symSize: 0x78 }
+  - { offset: 0x6A715, size: 0x8, addend: 0x0, symName: '___60-[WEGLocationManager locationManagerDidChangeAuthorization:]_block_invoke_2', symObjAddr: 0x5AC, symBinAddr: 0x45AC, symSize: 0xC }
+  - { offset: 0x6A764, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x5B8, symBinAddr: 0x45B8, symSize: 0x8 }
+  - { offset: 0x6A78B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x5C0, symBinAddr: 0x45C0, symSize: 0x8 }
+  - { offset: 0x6A7AA, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setWEGLocationAuthStatus:]', symObjAddr: 0x5C8, symBinAddr: 0x45C8, symSize: 0x28 }
+  - { offset: 0x6A7ED, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager handleAuthStatusUpdate:]', symObjAddr: 0x5F0, symBinAddr: 0x45F0, symSize: 0x128 }
+  - { offset: 0x6A840, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManager:didUpdateLocations:]', symObjAddr: 0x718, symBinAddr: 0x4718, symSize: 0x44 }
+  - { offset: 0x6A88F, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager saveLocationDictionary:withPlacemarks:andTriggerUpdateEvent:]', symObjAddr: 0x75C, symBinAddr: 0x475C, symSize: 0x3A8 }
+  - { offset: 0x6A91E, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager updateUserGeoInfo:andLongitude:andTriggerUpdateEvent:]', symObjAddr: 0xB04, symBinAddr: 0x4B04, symSize: 0xB8 }
+  - { offset: 0x6A991, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager updateUserGeoInfo:andTriggerUpdateEvent:]', symObjAddr: 0xBBC, symBinAddr: 0x4BBC, symSize: 0x160 }
+  - { offset: 0x6A9E0, size: 0x8, addend: 0x0, symName: '___62-[WEGLocationManager updateUserGeoInfo:andTriggerUpdateEvent:]_block_invoke', symObjAddr: 0xD1C, symBinAddr: 0x4D1C, symSize: 0x58 }
+  - { offset: 0x6AA5F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xD74, symBinAddr: 0x4D74, symSize: 0x28 }
+  - { offset: 0x6AA88, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xD9C, symBinAddr: 0x4D9C, symSize: 0x28 }
+  - { offset: 0x6AAA7, size: 0x8, addend: 0x0, symName: '___62-[WEGLocationManager updateUserGeoInfo:andTriggerUpdateEvent:]_block_invoke.35', symObjAddr: 0xDC4, symBinAddr: 0x4DC4, symSize: 0x58 }
+  - { offset: 0x6AB26, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager getWEGLocationAuthStatusFromCLAuthorizationStatus:]', symObjAddr: 0xE1C, symBinAddr: 0x4E1C, symSize: 0x24 }
+  - { offset: 0x6AB77, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager configureGeoFencingForRegions:]', symObjAddr: 0xE40, symBinAddr: 0x4E40, symSize: 0x240 }
+  - { offset: 0x6ABFC, size: 0x8, addend: 0x0, symName: '___52-[WEGLocationManager configureGeoFencingForRegions:]_block_invoke', symObjAddr: 0x1080, symBinAddr: 0x5080, symSize: 0x144 }
+  - { offset: 0x6ACD7, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManager:didEnterRegion:]', symObjAddr: 0x11C4, symBinAddr: 0x51C4, symSize: 0x1F0 }
+  - { offset: 0x6AD60, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManager:didExitRegion:]', symObjAddr: 0x13B4, symBinAddr: 0x53B4, symSize: 0x1F0 }
+  - { offset: 0x6ADE9, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager enableAlwaysAuthForLocation:]', symObjAddr: 0x15A4, symBinAddr: 0x55A4, symSize: 0xD0 }
+  - { offset: 0x6AE2E, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setLocationDelegate:]', symObjAddr: 0x1674, symBinAddr: 0x5674, symSize: 0xC }
+  - { offset: 0x6AE73, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager isLocationEnabled]', symObjAddr: 0x1680, symBinAddr: 0x5680, symSize: 0x8 }
+  - { offset: 0x6AEAA, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setIsLocationEnabled:]', symObjAddr: 0x1688, symBinAddr: 0x5688, symSize: 0x8 }
+  - { offset: 0x6AEE5, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager trackLocation]', symObjAddr: 0x1690, symBinAddr: 0x5690, symSize: 0x8 }
+  - { offset: 0x6AF1C, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setTrackLocation:]', symObjAddr: 0x1698, symBinAddr: 0x5698, symSize: 0x8 }
+  - { offset: 0x6AF57, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager wegLocationAuthStatus]', symObjAddr: 0x16A0, symBinAddr: 0x56A0, symSize: 0x8 }
+  - { offset: 0x6AF8E, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setWegLocationAuthStatus:]', symObjAddr: 0x16A8, symBinAddr: 0x56A8, symSize: 0x8 }
+  - { offset: 0x6AFCB, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager clLocationAuthStatus]', symObjAddr: 0x16B0, symBinAddr: 0x56B0, symSize: 0x8 }
+  - { offset: 0x6B002, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setClLocationAuthStatus:]', symObjAddr: 0x16B8, symBinAddr: 0x56B8, symSize: 0x8 }
+  - { offset: 0x6B03F, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationDelegate]', symObjAddr: 0x16C0, symBinAddr: 0x56C0, symSize: 0x18 }
+  - { offset: 0x6B076, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager locationManager]', symObjAddr: 0x16D8, symBinAddr: 0x56D8, symSize: 0x8 }
+  - { offset: 0x6B0AD, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setLocationManager:]', symObjAddr: 0x16E0, symBinAddr: 0x56E0, symSize: 0xC }
+  - { offset: 0x6B0EE, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager geocoder]', symObjAddr: 0x16EC, symBinAddr: 0x56EC, symSize: 0x8 }
+  - { offset: 0x6B125, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager setGeocoder:]', symObjAddr: 0x16F4, symBinAddr: 0x56F4, symSize: 0xC }
+  - { offset: 0x6B166, size: 0x8, addend: 0x0, symName: '-[WEGLocationManager .cxx_destruct]', symObjAddr: 0x1700, symBinAddr: 0x5700, symSize: 0x38 }
+...
