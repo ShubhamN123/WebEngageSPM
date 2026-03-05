@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(name: "WebEngage", path: "Sources/WebEngageSPM/xcFrameworks/WebEngage.xcframework"),
         .binaryTarget(name: "WELocation", path: "Sources/WebEngageSPM/xcFrameworks/WELocation.xcframework"),
-        .binaryTarget(name: "WENotificationInbox", path: "Sources/WebEngageSPM/xcFrameworks/WENotificationInbox/WENotificationInbox.xcframework"),
-        .binaryTarget(name: "WEPersonalization", path: "Sources/WebEngageSPM/xcFrameworks/WEPersonalization/WEPersonalization.xcframework")
+        .binaryTarget(name: "WENotificationInbox", path: "Sources/WebEngageSPM/xcFrameworks/WENotificationInbox.xcframework"),
+        .binaryTarget(name: "WEPersonalization", path: "Sources/WebEngageSPM/xcFrameworks/WEPersonalization.xcframework")
     ]
 )
