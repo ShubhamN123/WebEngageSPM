@@ -1,6 +1,0 @@
-framework module WELocation {
-  umbrella header "WELocation.h"
-  export *
-
-  module * { export * }
-}
