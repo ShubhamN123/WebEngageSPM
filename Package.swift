@@ -35,23 +35,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WebEngage",
-            url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.20.0/WebEngageFramework.zip",
-            checksum: "b68aa09c04fb1724b67498309445ad291f7be43fb9c14a43233ee2deb44c0aa4"
+            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/spm/beta-01/WebEngage.xcframework.zip",
+            checksum: "b94c92e9d3b47b4c2f1bb93b24e25809fcd8a3d80e54006c2c4dce0b7a7339f5"
         ),
         .binaryTarget(
             name: "WELocation",
-            url: "https://tmpfiles.org/dl/27354704/welocation.xcframework.zip",
+            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/spm/beta-01/WELocation.xcframework.zip",
             checksum: "5314d41eb0ecfa553c94b1d42d9ed26cd84ca1114c20613e57edbe96a7589f68"
         ),
         .binaryTarget(
             name: "WENotificationInbox",
-            url: "https://tmpfiles.org/dl/27354748/wenotificationinbox.xcframework.zip",
+            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/spm/beta-01/WENotificationInbox.xcframework.zip",
             checksum: "d9928f2960ddb7422e509dfd3e33b0235bec3fa7537486878aef1b2ffc567b83"
         ),
         .binaryTarget(
             name: "WEPersonalization",
-            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/WEPersonalization/1.3.1/WEPersonalization.zip",
-            checksum: "e49918687f148f4541723a2148ea9be3d58da67d16a28613b4f71dff2fc48f9d"
+            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/spm/beta-01/WEPersonalization.xcframework.zip",
+            checksum: "1bf628c7b7b2502e6956a817deca84a544ec946841e1ca795b4072ced14b2216"
         )
     ]
 )
