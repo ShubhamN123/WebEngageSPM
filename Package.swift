@@ -36,7 +36,7 @@ let package = Package(
         .binaryTarget(
             name: "WebEngage",
             url: "https://s3-us-west-2.amazonaws.com/webengage-sdk/ios/WebEngageCore/6.20.0/WebEngageFramework.zip",
-            checksum: "b94c92e9d3b47b4c2f1bb93b24e25809fcd8a3d80e54006c2c4dce0b7a7339f5"
+            checksum: "b68aa09c04fb1724b67498309445ad291f7be43fb9c14a43233ee2deb44c0aa4"
         ),
         .binaryTarget(
             name: "WELocation",
