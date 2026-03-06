@@ -50,8 +50,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WEPersonalization",
-            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/WEPersonalization/1.4.0/WEPersonalization.zip",
-            checksum: "571547fbc2393fbc298d865096dfa303dc6da93b218d21ca8857676fd16bfe13"
+            url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/WEPersonalization/1.3.1/WEPersonalization.zip",
+            checksum: "e49918687f148f4541723a2148ea9be3d58da67d16a28613b4f71dff2fc48f9d"
         )
     ]
 )
