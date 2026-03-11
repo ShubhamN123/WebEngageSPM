@@ -27,8 +27,8 @@ import PackageDescription
 let package = Package(
     name: "WebEngageSPM",
     products: [
-        .library(name: "WebEngage", targets: ["WebEngage"]),
-        .library(name: "WELocation", targets: ["WELocation"]),
+        .library(name: "WebEngageCore", targets: ["WebEngage"]),
+        .library(name: "WebEngage", targets: ["WebEngage","WELocation"]),
         .library(name: "WENotificationInbox", targets: ["WENotificationInbox"]),
         .library(name: "WEPersonalization", targets: ["WEPersonalization"])
     ],
