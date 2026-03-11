@@ -8,28 +8,28 @@ Add only the specific library you need:
 
 ### WebEngage Core
 ```
-https://github.com/YOUR_USERNAME/SPM-Core
+https://github.com/WebEngage/webengage-ios-sdk/SPM-Core
 Branch: beta-test
 Path: WebEngage
 ```
 
 ### WELocation
 ```
-https://github.com/YOUR_USERNAME/SPM-Core
+https://github.com/WebEngage/webengage-ios-sdk/SPM-Core
 Branch: beta-test
 Path: WELocation
 ```
 
 ### WENotificationInbox
 ```
-https://github.com/YOUR_USERNAME/SPM-Core
+https://github.com/WebEngage/webengage-ios-sdk/SPM-Core
 Branch: beta-test
 Path: WENotificationInbox
 ```
 
 ### WEPersonalization
 ```
-https://github.com/YOUR_USERNAME/SPM-Core
+https://github.com/WebEngage/webengage-ios-sdk/SPM-Core
 Branch: beta-test
 Path: WEPersonalization
 ```

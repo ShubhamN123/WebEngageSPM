@@ -1,17 +1,33 @@
-// swift-tools-version:5.6
+// swift-tools-version:6.0
+// The swift-tools-version declares the minimum version of Swift required to
+// build this package.
 
 // Copyright (c) 2017 WebEngage
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
 
 import PackageDescription
 
 let package = Package(
-    name: "WebEngage",
+    name: "webengage-ios-sdk",
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "WebEngage", targets: ["WebEngage","WELocation"]),
         .library(name: "WebEngageCore", targets: ["WebEngage"]),
-        .library(name: "WELocation", targets: ["WELocation"]),
-        .library(name: "WEPersonalization", targets: ["WEPersonalization"]),
-        .library(name: "WENotificationInbox", targets: ["WENotificationInbox"])
+        .library(name: "WebEngageLocation", targets: ["WELocationWrapper"]),
+        .library(name: "WebEngagePersonalization", targets: ["WEPersonalizationWrapper"]),
+        .library(name: "WebEngageNotificationInbox", targets: ["WENotificationInboxWrapper"])
    
     ],
     targets: [
@@ -34,6 +50,21 @@ let package = Package(
             name: "WEPersonalization",
             url: "https://webengage-sdk.s3.us-west-2.amazonaws.com/ios/spm/beta-01/WEPersonalization.xcframework.zip",
             checksum: "1bf628c7b7b2502e6956a817deca84a544ec946841e1ca795b4072ced14b2216"
+        ),
+        .target(
+            name: "WELocationWrapper",
+            dependencies: ["WebEngage", "WELocation"],
+            path: "Sources/WELocationWrapper"
+        ),
+        .target(
+            name: "WENotificationInboxWrapper",
+            dependencies: ["WebEngage", "WENotificationInbox"],
+            path: "Sources/WENotificationInboxWrapper"
+        ),
+        .target(
+            name: "WEPersonalizationWrapper",
+            dependencies: ["WebEngage", "WEPersonalization"],
+            path: "Sources/WEPersonalizationWrapper"
         )
     ]
 )
