@@ -7,10 +7,12 @@ import PackageDescription
 let package = Package(
     name: "WebEngage",
     products: [
-        .library(name: "WebEngageCore", targets: ["WebEngage"]),
         .library(name: "WebEngage", targets: ["WebEngage","WELocation"]),
-        .library(name: "WENotificationInbox", targets: ["WENotificationInbox"]),
-        .library(name: "WEPersonalization", targets: ["WEPersonalization"])
+        .library(name: "WebEngageCore", targets: ["WebEngage"]),
+        .library(name: "WELocation", targets: ["WELocation"]),
+        .library(name: "WEPersonalization", targets: ["WEPersonalization"]),
+        .library(name: "WENotificationInbox", targets: ["WENotificationInbox"])
+   
     ],
     targets: [
         .binaryTarget(
